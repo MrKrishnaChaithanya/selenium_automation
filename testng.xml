@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- Regression Test1 -->
+<suite name="Regression Test1">
+    <!-- Test Suite 1 -->
+    <test name="Test Suite 1">
+        <!-- Cucumber Runner class -->
+        <classes>
+            <class name="com.selenium_automation.runner.RunCucumberTest"/>
+        </classes>
+    </test><!-- test-->
+</suite><!-- suite-->
