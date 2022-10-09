@@ -18,6 +18,7 @@
         <webdrivermanager-version>5.3.0</webdrivermanager-version>
         <log4j-version>2.19.0</log4j-version>
         <extentreports-version>5.0.9</extentreports-version>
+        <lombok-version>1.18.24</lombok-version>
     </properties>
 
     <dependencyManagement>
@@ -75,6 +76,14 @@
             <artifactId>extentreports</artifactId>
             <version>${extentreports-version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok-version}</version>
+            <scope>provided</scope>
+        </dependency>
+        
     </dependencies>
 
     <build>
