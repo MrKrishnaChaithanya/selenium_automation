@@ -1,4 +1,5 @@
 version: '3.8'
 services:
-  kccontainerservice1:
+  kcservice1:
     build: .
+    image: dockerkrishnachaithanya/kcservice1

@@ -7,7 +7,8 @@
     <test name="Test Suite 1">
         <!-- Cucumber Runner class -->
         <classes>
-            <class name="com.selenium_automation.runner.RunCucumberTest" />
+            <!-- <class name="com.selenium_automation.runner.RunCucumberTest" /> -->
+            <class name="com.selenium_automation.testCases.TC001_Abtest" />
         </classes>
     </test> <!-- test-->
 </suite> <!-- suite-->
